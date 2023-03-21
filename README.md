@@ -1,6 +1,6 @@
 Using [flatpak-node-generator](https://github.com/flatpak/flatpak-builder-tools/tree/master/node)
 
-`yarn.lock` and `package-lock.json` have been build from the same `package.json`
+`yarn.lock` and `package-lock.json` have been built from the same `package.json`. Changing the packages used and the node/npm version does not change the result.
 
 # NPM
 
@@ -14,7 +14,7 @@ Generating packages [20/20] jake @ 10.8.5
 Wrote 4 source(s).
 ```
 
-The number of sources
+The number of sources is always the same and always is only node-gyp and a script file (seems auto generated).
 
 # Yarn
 
